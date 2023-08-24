@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#un{
+  position:absolute;
+  color:aqua;
+  bottom: 500px;
+  left:45px;
+  
+}
+#p{
+  position:absolute;
+  color:aqua;
+  bottom: 410px;
+  left:45px;
+  
+}
+#cp{
+  position:absolute;
+  color:aqua;
+  bottom: 320px;
+  left:45px;
+  
+}
+#ut{
+  position:relative;
+  top:2px;
+  left:134px;
+  width: 200px;
+  height: 30px;
+}
+#pp{
+  position: relative;
+  left:145px;
+  width: 200px;
+  height: 30px;
+}
+#cpp{
+  position: relative;
+  width: 200px;
+  height: 30px;
+  left: 51px;
+}
+.App-logo{
+  position:absolute;
+  width: 200px;
+  height: 195px;
+  top:56px;
+}
+#login{
+  position:absolute;
+  left:419px;
+  bottom: 244px;
+  width: 80px;
+  height:49px;
+  background-color: aquamarine;
+}
+#signin{
+  position:absolute;
+  left:554px;
+  bottom: 244px;
+  width: 80px;
+  height:49px;
+  background-color: aquamarine;
+}
+#lf{
+  position:absolute;
+  bottom: 559px;
+  left:289px;
+  background-color: blue;
+}
